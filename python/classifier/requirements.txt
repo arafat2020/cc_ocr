@@ -1,0 +1,2 @@
+# Required to train and to serve the SavedModel (heuristics work without TF)
+tensorflow>=2.15,<3

@@ -1,0 +1,10 @@
+[package]
+name = "cc_ocr_plugin_api"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Shared types and plugin traits for the cc_ocr engine"
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
