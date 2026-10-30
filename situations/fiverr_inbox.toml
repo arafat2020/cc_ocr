@@ -1,0 +1,13 @@
+id = "fiverr_inbox"
+situation = "fiverr"
+ocr = "tesseract"
+classifier = "tf_sidecar"
+
+[params]
+dpi = 150
+python = "python3"
+
+[params.fiverr]
+crop_left_frac = 0.22
+crop_right_frac = 0.72
+min_width_for_crop = 1200

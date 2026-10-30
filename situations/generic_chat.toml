@@ -1,0 +1,11 @@
+id = "generic_chat"
+situation = "generic"
+ocr = "tesseract"
+classifier = "tf_sidecar"
+
+[params]
+dpi = 150
+python = "python3"
+
+[params.generic]
+self_aliases = ["me", "you"]

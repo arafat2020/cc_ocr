@@ -1,0 +1,126 @@
+{"text": "Hi, hope you are well.", "intent": "greeting"}
+{"text": "Hello! Good morning.", "intent": "greeting"}
+{"text": "Assalamu Alaikum Brother, hope you are fine.", "intent": "greeting"}
+{"text": "Hey, thanks for getting back to me.", "intent": "greeting"}
+{"text": "Hi there, just checking in.", "intent": "greeting"}
+{"text": "Thank you so much for your help.", "intent": "greeting"}
+{"text": "Good evening, nice to meet you.", "intent": "greeting"}
+{"text": "Hello, I wanted to follow up on our chat.", "intent": "greeting"}
+{"text": "Please add login, dashboard, and payment features to the app.", "intent": "scope"}
+{"text": "Here is the complete checklist of requirements for the project.", "intent": "scope"}
+{"text": "I need you to build a user dashboard and admin panel.", "intent": "scope"}
+{"text": "The scope includes mobile responsive UI and API integration.", "intent": "scope"}
+{"text": "Can you also add a notification feature?", "intent": "scope"}
+{"text": "Requirements: auth, CRUD, and reporting module.", "intent": "scope"}
+{"text": "We need step-by-step setup instructions in the README.", "intent": "scope"}
+{"text": "Please treat this as the full feature list for v1.", "intent": "scope"}
+{"text": "What is your price for this extra work?", "intent": "price"}
+{"text": "My budget is around $500 for the remaining tasks.", "intent": "price"}
+{"text": "I can pay you the remaining amount after delivery.", "intent": "price"}
+{"text": "Please send an invoice for the milestone payment.", "intent": "price"}
+{"text": "How much do I still owe you?", "intent": "price"}
+{"text": "I am willing to settle any legitimate amount that I still owe.", "intent": "price"}
+{"text": "Can we discuss the payment plan?", "intent": "price"}
+{"text": "The quoted price seems high for this change.", "intent": "price"}
+{"text": "Hi, can you revise the logo colors?", "intent": "revision"}
+{"text": "Please fix the header spacing on mobile.", "intent": "revision"}
+{"text": "I need a small update to the checkout page layout.", "intent": "revision"}
+{"text": "Can you change the button text and update the fonts?", "intent": "revision"}
+{"text": "Please revise the API response format.", "intent": "revision"}
+{"text": "There is a bug in the login form, please fix it.", "intent": "revision"}
+{"text": "Kindly update the hero image and tweak the colors.", "intent": "revision"}
+{"text": "Revision requested: correct the typo on the landing page.", "intent": "revision"}
+{"text": "I will deliver the source code today.", "intent": "delivery"}
+{"text": "Please share the GitHub repository access.", "intent": "delivery"}
+{"text": "Here is the handoff package with .env.example and migrations.", "intent": "delivery"}
+{"text": "Transfer the repository ownership and keep commit history.", "intent": "delivery"}
+{"text": "We are organizing all project source codes for delivery.", "intent": "delivery"}
+{"text": "I'll send the deployment credentials and Vercel links.", "intent": "delivery"}
+{"text": "Order files and repository links are ready for handoff.", "intent": "delivery"}
+{"text": "Please provide the complete project and code that I paid for.", "intent": "delivery"}
+{"text": "I feel like I got scammed after all this time.", "intent": "dispute"}
+{"text": "If we cannot resolve this I will contact Fiverr Support.", "intent": "dispute"}
+{"text": "I may open a dispute and request a refund.", "intent": "dispute"}
+{"text": "This is unacceptable; I will take legal action if needed.", "intent": "dispute"}
+{"text": "Please do not take the money and leave without the project.", "intent": "dispute"}
+{"text": "I will provide payment records to Fiverr Support for review.", "intent": "dispute"}
+{"text": "Considering a chargeback if this is not resolved.", "intent": "dispute"}
+{"text": "You wasted months of my time and I still don't have the project.", "intent": "dispute"}
+{"text": "Your order was delivered", "intent": "system"}
+{"text": "Order delivered successfully.", "intent": "system"}
+{"text": "The order has been marked as delivered.", "intent": "system"}
+{"text": "Delivery: your order was delivered by the seller.", "intent": "system"}
+{"text": "System notice: order completed.", "intent": "system"}
+{"text": "Fiverr system: order delivered.", "intent": "system"}
+{"text": "Okay, that makes sense.", "intent": "other"}
+{"text": "Let me check and get back to you.", "intent": "other"}
+{"text": "Sure, give me a moment.", "intent": "other"}
+{"text": "I understand your concern.", "intent": "other"}
+{"text": "Please wait until Monday for an update.", "intent": "other"}
+{"text": "Noted, I will review this carefully.", "intent": "other"}
+{"text": "Can you clarify what you mean?", "intent": "other"}
+{"text": "Alright, sounds good.", "intent": "other"}
+{"text": "Hi!", "intent": "greeting"}
+{"text": "Hello there.", "intent": "greeting"}
+{"text": "Hey brother, hope all is well.", "intent": "greeting"}
+{"text": "Greetings, thanks for your reply.", "intent": "greeting"}
+{"text": "Hi, hope you're doing great today.", "intent": "greeting"}
+{"text": "Good morning, ready when you are.", "intent": "greeting"}
+{"text": "Assalamualaikum, hope you are doing well.", "intent": "greeting"}
+{"text": "Thanks a lot for the update.", "intent": "greeting"}
+{"text": "Please implement OAuth and a settings page.", "intent": "scope"}
+{"text": "We need reports export as PDF and CSV.", "intent": "scope"}
+{"text": "Add dark mode and multi-language support.", "intent": "scope"}
+{"text": "The feature list includes chat and notifications.", "intent": "scope"}
+{"text": "Include database migrations and seed scripts.", "intent": "scope"}
+{"text": "I need an admin role with permissions.", "intent": "scope"}
+{"text": "Scope change: add Stripe webhooks.", "intent": "scope"}
+{"text": "Build the API endpoints listed in the checklist.", "intent": "scope"}
+{"text": "Can you quote a price for this revision?", "intent": "price"}
+{"text": "I'll pay the remaining balance this week.", "intent": "price"}
+{"text": "Is there an extra charge for rush delivery?", "intent": "price"}
+{"text": "Please confirm the total payment due.", "intent": "price"}
+{"text": "My budget cannot go above $300.", "intent": "price"}
+{"text": "How much for adding that module?", "intent": "price"}
+{"text": "Send me the payment link for the next milestone.", "intent": "price"}
+{"text": "I still owe you for last week's work.", "intent": "price"}
+{"text": "Please revise the footer links.", "intent": "revision"}
+{"text": "Fix the broken image on Safari.", "intent": "revision"}
+{"text": "Update the copy on the pricing section.", "intent": "revision"}
+{"text": "Change the primary color to blue.", "intent": "revision"}
+{"text": "Can you correct the alignment issues?", "intent": "revision"}
+{"text": "Need a quick fix on the signup validation.", "intent": "revision"}
+{"text": "Please adjust spacing between sections.", "intent": "revision"}
+{"text": "Revise the email template wording.", "intent": "revision"}
+{"text": "Sharing GitHub collaborator invite now.", "intent": "delivery"}
+{"text": "Delivery package includes README and .env.example.", "intent": "delivery"}
+{"text": "I'll push the final code to the repo today.", "intent": "delivery"}
+{"text": "Handoff: repos, credentials, and deploy config.", "intent": "delivery"}
+{"text": "Please grant admin access on every repository.", "intent": "delivery"}
+{"text": "Source code and migrations are ready.", "intent": "delivery"}
+{"text": "Uploading the delivery files on Fiverr.", "intent": "delivery"}
+{"text": "Here are the Vercel and database credentials.", "intent": "delivery"}
+{"text": "I want a refund for this incomplete work.", "intent": "dispute"}
+{"text": "Escalating to Fiverr Support with evidence.", "intent": "dispute"}
+{"text": "This feels like a scam and wasted my money.", "intent": "dispute"}
+{"text": "I will dispute the order if ignored.", "intent": "dispute"}
+{"text": "Considering legal channels if not resolved.", "intent": "dispute"}
+{"text": "Do not disappear after taking payment.", "intent": "dispute"}
+{"text": "I paid for a full project and got nothing usable.", "intent": "dispute"}
+{"text": "Chargeback is my next step.", "intent": "dispute"}
+{"text": "Your order was delivered.", "intent": "system"}
+{"text": "Order delivered.", "intent": "system"}
+{"text": "System: delivery completed.", "intent": "system"}
+{"text": "The order status changed to delivered.", "intent": "system"}
+{"text": "Automatic notice: order delivered.", "intent": "system"}
+{"text": "Delivery confirmation from the platform.", "intent": "system"}
+{"text": "Order marked delivered by system.", "intent": "system"}
+{"text": "Platform message: your order was delivered.", "intent": "system"}
+{"text": "Okay.", "intent": "other"}
+{"text": "Got it.", "intent": "other"}
+{"text": "I will think about it.", "intent": "other"}
+{"text": "Please hold on.", "intent": "other"}
+{"text": "That works for me.", "intent": "other"}
+{"text": "I'll confirm shortly.", "intent": "other"}
+{"text": "Interesting point.", "intent": "other"}
+{"text": "Let me discuss internally first.", "intent": "other"}

@@ -1,0 +1,22 @@
+[package]
+name = "cc_ocr_cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "CLI for the pluggable conversation OCR engine"
+readme = "../../ARCHITECTURE.md"
+
+[[bin]]
+name = "cc_ocr"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+cc_ocr_core.workspace = true
+cc_ocr_plugin_api.workspace = true
+cc_ocr_plugin_fiverr.workspace = true
+cc_ocr_plugin_generic.workspace = true
+cc_ocr_plugin_tesseract.workspace = true
+cc_ocr_plugin_tf_sidecar.workspace = true
+clap.workspace = true
+serde_json.workspace = true

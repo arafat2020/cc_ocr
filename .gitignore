@@ -1,0 +1,80 @@
+# --- Rust ---
+/target/
+**/target/
+**/*.rs.bk
+
+# --- Pipeline outputs (keep empty dirs via gitkeep) ---
+/out/*
+!/out/cache/
+!/out/labels/
+!/out/tmp/
+/out/cache/**
+!/out/cache/.gitkeep
+/out/labels/**
+!/out/labels/.gitkeep
+/out/tmp/**
+!/out/tmp/.gitkeep
+
+# --- Sample chat exports (large PDFs/PNGs; keep locally) ---
+Chat/*.pdf
+Chat/*.png
+Chat/*.jpg
+Chat/*.jpeg
+Chat/*.webp
+Chat/**/*.pdf
+Chat/**/*.png
+Chat/**/*.jpg
+Chat/**/*.jpeg
+Chat/**/*.webp
+Chat/_preview/
+Chat/.DS_Store
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+python/**/.venv/
+
+# --- Trained classifier artifacts (re-train with train.py) ---
+python/classifier/model/*
+!python/classifier/model/.gitkeep
+*.onnx
+*.h5
+*.keras
+checkpoints/
+
+# --- Env / secrets ---
+!.env.example
+credentials*.json
+*.pem
+
+# --- Editors / OS ---
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs / misc ---
+*.log
+npm-debug.log*
+.coverage
+htmlcov/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules

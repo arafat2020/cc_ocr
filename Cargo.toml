@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/cc_ocr_plugin_api",
+    "crates/cc_ocr_core",
+    "crates/cc_ocr_cli",
+    "plugins/fiverr",
+    "plugins/generic",
+    "plugins/tesseract_ocr",
+    "plugins/tf_sidecar",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace.dependencies]
+anyhow = "1"
+cc_ocr_plugin_api = { path = "crates/cc_ocr_plugin_api" }
+cc_ocr_core = { path = "crates/cc_ocr_core" }
+cc_ocr_plugin_fiverr = { path = "plugins/fiverr" }
+cc_ocr_plugin_generic = { path = "plugins/generic" }
+cc_ocr_plugin_tesseract = { path = "plugins/tesseract_ocr" }
+cc_ocr_plugin_tf_sidecar = { path = "plugins/tf_sidecar" }
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+clap = { version = "4", features = ["derive"] }
+hex = "0.4"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+indicatif = "0.17"
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+toml = "0.8"
+which = "7"

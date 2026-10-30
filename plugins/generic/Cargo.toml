@@ -1,0 +1,11 @@
+[package]
+name = "cc_ocr_plugin_generic"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Generic chat SituationAdapter (minimal heuristics)"
+
+[dependencies]
+anyhow.workspace = true
+cc_ocr_plugin_api.workspace = true
+regex.workspace = true
